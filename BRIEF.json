@@ -1,0 +1,29 @@
+{
+  "repo": "midi-pedal-ledger",
+  "module": "midi_pedal_ledger",
+  "units": 18,
+  "capability": "Explain MIDI key release, CC64 sustain release and exact tempo-derived held-note intervals.",
+  "user": "Music editors investigating timing in a small Standard MIDI File.",
+  "pain": "Note-off time and sustain release differ; ambiguous simultaneous cross-track events should remain visible.",
+  "comparables": [
+    "mido/mido",
+    "craffel/pretty-midi",
+    "Tonejs/Midi"
+  ],
+  "leader": "mido/mido",
+  "query": "MIDI parser; MIDI Objects",
+  "quick": "midi-pedal-ledger --make-example example.mid\n.venv/bin/midi-pedal-ledger example.mid",
+  "expected": "Generator creates a new invented MIDI file and refuses overwrite. The report exits0: key-off tick480, CC64 release tick960, held time1000000 microseconds and peak one held voice.",
+  "contract": "Binary SMF formats0/1 with PPQ timing. Running channel status is cleared by meta/sysex. Format1 tempo must be in track0; default is500000 microseconds/quarter. Tempo integration uses exact rational arithmetic; microseconds are integer or numerator/denominator strings. CC64>=64 holds released keys until pedal up. Pedal state is per channel. Events serialize by tick,track,event index; same-channel simultaneous events across tracks are flagged. Unmatched offs and capture-end closures are findings, never fabricated observed releases. Re-striking a pitch while a prior voice is pedal-held is supported; overlapping key-down of identical channel/pitch is refused.",
+  "limits": "1 MiB,16 tracks,50000 events,20000 notes,maximum tick1e9,PPQ1..32767. Four-byte VLQ maximum. No format2/SMPTE, audible synthesis, other-controller interpretation or physical sounding-duration claims. Channel-mode/reset/all-notes-off controllers are rejected. Other meta/channel events and sysex are counted/ignored. Findings cap512, cross-track evidence256.",
+  "acceptance": "Correct key/pedal release distinction, channel separation, tempo changes/rational timing, running status, incomplete captures and ambiguous ordering; reject malformed chunks/VLQs and unsupported timing.",
+  "notes": "Mido already provides full SMF IO. Pretty-midi already has pedal-aware piano-roll processing; Tonejs/Midi already exposes sustain controls. This event evidence view is not the first sustain feature and does not replace these broader libraries.",
+  "overlap": "The owned CUE/WAVE sample plan partitions source audio frames; PGN clock tooling handles chess labels. This project reconstructs binary musical note/controller state and tempo time, a distinct capability.",
+  "topics": [
+    "midi",
+    "music",
+    "python",
+    "sustain-pedal",
+    "data-validation"
+  ]
+}

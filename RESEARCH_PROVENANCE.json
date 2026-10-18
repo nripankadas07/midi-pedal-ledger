@@ -1,0 +1,211 @@
+{
+  "comparables": [
+    {
+      "full": "mido/mido",
+      "url": "https://github.com/mido/mido",
+      "stars": 1651,
+      "default_branch": "main",
+      "pushed_at": "2026-09-16T17:16:31Z",
+      "archived": false,
+      "license": "MIT",
+      "description": "MIDI Objects for Python",
+      "observed": "2026-10-18T06:16:06.189Z",
+      "readme": {
+        "path": "README.rst",
+        "sha": "4c98650cb4f0979a5d9003eb688f560078f89ba2"
+      },
+      "issues": [
+        {
+          "number": 666,
+          "title": "Return pending messages from blocking MultiPort receive",
+          "url": "https://github.com/mido/mido/pull/666",
+          "pr": true
+        },
+        {
+          "number": 665,
+          "title": "Fix initial MIDI playback timing after lazy track merging",
+          "url": "https://github.com/mido/mido/pull/665",
+          "pr": true
+        },
+        {
+          "number": 664,
+          "title": "Fix error handling for malformed message strings",
+          "url": "https://github.com/mido/mido/pull/664",
+          "pr": true
+        },
+        {
+          "number": 662,
+          "title": "Preserve delta time when loading unknown meta events",
+          "url": "https://github.com/mido/mido/pull/662",
+          "pr": true
+        },
+        {
+          "number": 661,
+          "title": "Fix MidiTrack indexing with __index__ objects",
+          "url": "https://github.com/mido/mido/pull/661",
+          "pr": true
+        }
+      ]
+    },
+    {
+      "full": "craffel/pretty-midi",
+      "url": "https://github.com/craffel/pretty-midi",
+      "stars": 1045,
+      "default_branch": "main",
+      "pushed_at": "2026-10-06T20:09:06Z",
+      "archived": false,
+      "license": "MIT",
+      "description": "Utility functions for handling MIDI data in a nice/intuitive way.",
+      "observed": "2026-10-18T06:16:06.435Z",
+      "readme": {
+        "path": "README.md",
+        "sha": "90d85a004ebabc67b629c9ceac4015e2d3f3f29b"
+      },
+      "issues": [
+        {
+          "number": 265,
+          "title": "Preserve control change order when writing MIDI",
+          "url": "https://github.com/craffel/pretty-midi/pull/265",
+          "pr": true
+        },
+        {
+          "number": 264,
+          "title": "Return finite zero pitch statistics when no data is available",
+          "url": "https://github.com/craffel/pretty-midi/pull/264",
+          "pr": true
+        },
+        {
+          "number": 263,
+          "title": "Value Error,  largest tick of {}, ...",
+          "url": "https://github.com/craffel/pretty-midi/issues/263",
+          "pr": false
+        },
+        {
+          "number": 262,
+          "title": "Purpose of 0.2.11.post0 release",
+          "url": "https://github.com/craffel/pretty-midi/issues/262",
+          "pr": false
+        },
+        {
+          "number": 261,
+          "title": "Support for MIDI 2.0?",
+          "url": "https://github.com/craffel/pretty-midi/issues/261",
+          "pr": false
+        }
+      ]
+    },
+    {
+      "full": "Tonejs/Midi",
+      "url": "https://github.com/Tonejs/Midi",
+      "stars": 1006,
+      "default_branch": "master",
+      "pushed_at": "2023-07-19T09:10:52Z",
+      "archived": false,
+      "license": "MIT",
+      "description": "Convert MIDI into Tone.js-friendly JSON",
+      "observed": "2026-10-18T06:16:06.146Z",
+      "readme": {
+        "path": "README.md",
+        "sha": "2e89bf91ad8c296e5ae023d7968a0c36b6bb97df"
+      },
+      "issues": [
+        {
+          "number": 197,
+          "title": "fix: pitch bend values are silently flattened on Midi.toArray() round-trip",
+          "url": "https://github.com/Tonejs/Midi/pull/197",
+          "pr": true
+        },
+        {
+          "number": 196,
+          "title": "( https://tonejs.github.io/Midi/ ) Most files get greyed out and aren't selectable",
+          "url": "https://github.com/Tonejs/Midi/issues/196",
+          "pr": false
+        },
+        {
+          "number": 195,
+          "title": "Copy to clipboard",
+          "url": "https://github.com/Tonejs/Midi/issues/195",
+          "pr": false
+        },
+        {
+          "number": 194,
+          "title": "Just a typo on https://www.npmjs.com/package/@tonejs/midi",
+          "url": "https://github.com/Tonejs/Midi/issues/194",
+          "pr": false
+        },
+        {
+          "number": 193,
+          "title": "Set channel from cc or pitch bend events on tracks with no notes",
+          "url": "https://github.com/Tonejs/Midi/pull/193",
+          "pr": true
+        }
+      ]
+    }
+  ],
+  "code_references": [
+    {
+      "repo": "mido/mido",
+      "path": "mido/midifiles/midifiles.py",
+      "sha": "5170915aa6410a37931c6cdaf7d32c5f6902be11",
+      "url": "https://github.com/mido/mido/blob/main/mido/midifiles/midifiles.py",
+      "observed": "2026-10-18T06:18:33.051Z"
+    },
+    {
+      "repo": "craffel/pretty-midi",
+      "path": "pretty_midi/instrument.py",
+      "sha": "198a76a8a5cf33aa5063109ff214d990f09aafe1",
+      "url": "https://github.com/craffel/pretty-midi/blob/main/pretty_midi/instrument.py",
+      "observed": "2026-10-18T06:18:33.028Z"
+    }
+  ],
+  "queries": [
+    {
+      "query": "RF microwave",
+      "url": "https://github.com/search?q=RF%20microwave&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-18T06:14:41.637Z",
+      "text": "Skip to content\nRF microwave\nrepositories Search Results \u00b7 RF microwave\nFilter by\nCode\nresults\nRepositories\n237\n\u00a0(237)\nresults\nIssues\nresults\nPull requests\nresults\nDiscussions\nresults\nUsers\nresults\nMore\nLanguages\nPython\nHTML\nMATLAB\nTypeScript\nC++\nJavaScript\nJupyter Notebook\nC#\nC\nJulia\nMore languages...\nAdvanced\nOwner\nSize\nNumber of followers\nNumber of forks\nNumber of stars\nDate created\nDate pushed\nTopic\nLicense\nArchived\nPublic\nPrivate\nAdvanced search\n237 results\n\u00a0(154 ms)\n237 results\nSort by: Most stars\nSave\nscikit-rf/scikit-rf\nRF and Microwave Engineering Scikit\npython\nengineering\nelectronics\nscikit-rf\nmicrowave-engineering\nPython\n\u00b7\n949\n\u00b7\nUpdated 32 minutes ago\nStar\nloxodes/vna\nUnder development open hardware microwave vector network analyzer\nhardware\nsynthesizer\nvna\nkicad\nrf\nHTML\n\u00b7\n206\n\u00b7\nUpdated on Jan 1, 2024\nStar\nthomaslepoix/Qucs-RFlayout\nExport Qucs RF schematics to KiCad layouts & OpenEMS scripts\npcb\nkicad\npcb-layout\nopenhardware\nqucs\nC++\n\u00b7\n169\n\u00b7\nUpdated on Aug 25, 2025\nStar\nmishka-zz/freecad-microwave\nFreeCAD workbench for RF and microwave engineering\nPython\n\u00b7\n83\n\u00b7\nUpdated 5 days ago\nStar\nDevMajed/RF-Microwave-Engineering\nPublic archive\nRF and Microwave design projects using ADS, HFSS, and other tools\nradar\npcb\nads\nfilters\nrf\nAda\n\u00b7\n35\n\u00b7\nUpdated on Feb 18, 2021\nStar\nsh123/nano_power_meter\nDual channel Arduino Nano milliwatt power meter for HF/VHF/UHF/SHF bands\narduino\nham-radio\namateur-radio\narduino-nano\nrf\nC++\n\u00b7\n30\n\u00b7\nUpdated on Nov 1, 2024\nStar\nismailakdag/fairbeam\nFairbeam: the open electromagnetic workbench. Design, simulate and document antennas with openEMS.\nsimulation\nfdtd\nopen-science\nantenna\nrf\nPython\n\u00b7\n27\n\u00b7\nUpdated 9 hours ago\nStar\ncfriesicke/inkscape-schematic-symbols\nCollection of Inkscape svg files for drawing schematics and RF/microwave block diagrams\n25\n\u00b7\nUpdated on Jan 28, 2015\nStar\nDABIAN-afk/microstrip-studio\nLightweight visual microstrip synthesis and analysis tool for RF engineers.\nreact\ntypescript\npcb\nrf\ntransmission-line\nTypeScript\n\u00b7\n21\n\u00b7\nUpdated on Aug 15\nStar\nMR-DOS/MWGEN-G1\n12.5 MHz - 6400 MHz (LMX2572) or even up to 20 GHz (LMX2595) generator board with int./ext. reference.\ngenerator\npcb\nkicad\nrf\nmicrowave\n18\n\u00b7\nUpdated on Jan 1, 2022\nStar\nPrevious1234567\u202624Next\nSponsor open source projects you depend on\nContributors are working behind the scenes to make open source better for everyone\u2014give them the help and recognition they deserve.\nExplore sponsorable projects\nHow can we improve search? Give feedback\nProTip!\u00a0Press the / key to activate the search input again and adjust your query."
+    },
+    {
+      "query": "intel hex",
+      "url": "https://github.com/search?q=intel%20hex&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-18T06:14:43.626Z",
+      "text": "Skip to content\nintel hex\nrepositories Search Results \u00b7 intel hex\nFilter by\nCode\nresults\nRepositories\n511\n\u00a0(511)\nresults\nIssues\nresults\nPull requests\nresults\nDiscussions\nresults\nUsers\nresults\nMore\nLanguages\nC\nPython\nC++\nC#\nJava\nRust\nAssembly\nJavaScript\nTypeScript\nGo\nMore languages...\nAdvanced\nOwner\nSize\nNumber of followers\nNumber of forks\nNumber of stars\nDate created\nDate pushed\nTopic\nLicense\nArchived\nPublic\nPrivate\nAdvanced search\n511 results\n\u00a0(201 ms)\n511 results\nSort by: Most stars\nSave\nIntelLabs/hexl\nIntel Homomorphic Encryption Acceleration Library accelerates modular arithmetic operations used in homomorphic encryption by leveraging \u2026\ncryptography\nprivacy\nhomomorphic-encryption\navx-512\nC++\n\u00b7\n269\n\u00b7\nUpdated on Jun 4\nStar\npython-intelhex/intelhex\nPython IntelHex library\npython\nhex\nhex2bin\nintelhex\nhex8\nPython\n\u00b7\n232\n\u00b7\nUpdated on Dec 7, 2024\nStar\neerimoq/bincopy\nMangling of various file formats that conveys binary information (Motorola S-Record, Intel HEX, TI-TXT, Verilog VMEM, ELF and binary files).\npython\nbinary\nhexdump\nintel-hex\ns-record\nPython\n\u00b7\n127\n\u00b7\nUpdated on May 12\nStar\nintel/hexl-fpga\nPublic archive\nIntel Homomorphic Encryption Acceleration Library for FPGAs, including open source implementation of FPGA kernels for accelerating NTT, I\u2026\ncryptography\nprivacy\nacceleration\nfpga\nhomomorphic-encryption\nC++\n\u00b7\n112\n\u00b7\nUpdated on Dec 20, 2022\nStar\narkku/ihex\nIntel HEX (IHEX) format read/write library in C\nC\n\u00b7\n98\n\u00b7\nUpdated on Jul 20, 2025\nStar\nexbin/bined-intellij-plugin\nHex viewer/editor plugin for JetBrains IntelliJ platform\nintellij-plugin\nandroid-studio-plugin\njetbrains-plugin\nJava\n\u00b7\n70\n\u00b7\nUpdated on Sep 12\nStar\ntwinearthsoftware/AVRDisassembler\nA .NET Core (cross platform) ATMEL AVR / Arduino (Intel HEX) Disassembler.\nC#\n\u00b7\n66\n\u00b7\nUpdated on Oct 29, 2021\nStar\nparezj/BSL430.NET\nTI MSP430 Bootloader (BSL) .NET Cross-Platform Toolchain & Firmware Tools. The cheapest way to flash MSP430, with FTDI/Serial/UART conver\u2026\ntoolchain\nflash\ncsharp\nserial\nfirmware\nC#\n\u00b7\n51\n\u00b7\nUpdated on Dec 8, 2022\nStar\nalgodesigner/hex2bin\nhex2bin converts an Intel hex file to binary\nhex\nassembler\ncompilers\nsdcc\nhex2bin\nC\n\u00b7\n49\n\u00b7\nUpdated on Jan 10, 2025\nStar\ntwinearthsoftware/IntelHexFormatReader\nA .NET library to parse an Intel HEX file and emit a representative memory representation.\nC#\n\u00b7\n44\n\u00b7\nUpdated on Aug 26, 2021\nStar\nPrevious1234567\u202652Next\nSponsor open source projects you depend on\nContributors are working behind the scenes to make open source better for everyone\u2014give them the help and recognition they deserve.\nExplore sponsorable projects\nHow can we improve search? Give feedback\nProTip!\u00a0Press the / key to activate the search input again and adjust your query."
+    },
+    {
+      "query": "DXF",
+      "url": "https://github.com/search?q=DXF&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-18T06:14:45.028Z",
+      "text": "Skip to content\nDXF\nrepositories Search Results \u00b7 DXF\nFilter by\nCode\nresults\nRepositories\n5.9k\n\u00a0(5.9k)\nresults\nIssues\nresults\nPull requests\nresults\nDiscussions\nresults\nUsers\nresults\nMore\nLanguages\nPython\nJavaScript\nHTML\nTypeScript\nC#\nC++\nJava\nRust\nC\nJupyter Notebook\nMore languages...\nAdvanced\nOwner\nSize\nNumber of followers\nNumber of forks\nNumber of stars\nDate created\nDate pushed\nTopic\nLicense\nArchived\nPublic\nPrivate\nAdvanced search\n5.9k results\n\u00a0(166 ms)\n5.9k results\nSort by: Most stars\nSave\nLibreCAD/LibreCAD\nLibreCAD is a cross-platform 2D CAD program. It can read DXF/DWG, and write DXF/DWG/PDF/SVG files. It supports point/line/circle/ellipse/\u2026\ndrawing\nqt\ngeometry\ncad\ndxf\nC++\n\u00b7\n6.5k\n\u00b7\nUpdated 12 hours ago\nStar\nCadQuery/cadquery\nA python parametric CAD scripting framework based on OCCT\npython\nmodeling\nstl\ncad\ndxf\nPython\n\u00b7\n6k\n\u00b7\nUpdated 8 days ago\nStar\nf3d-app/f3d\nFast and minimalist 3D viewer.\ngraphics\nrendering\nobj\nraytracing\nvtk\nC++\n\u00b7\n4.9k\n\u00b7\nUpdated 21 hours ago\nStar\nKeychron/Keychron-Keyboards-Hardware-Design\nIndustrial design files for Keychron keyboards and mice. 100+ models with CAD assets in STEP, DXF, DWG, and PDF. Source-available, with c\u2026\nkeyboard\ngaming\nqmk\nmouse\ncad\n3.8k\n\u00b7\nUpdated 3 days ago\nStar\njscad/OpenJSCAD.org\nJSCAD is an open source set of modular, browser and command line tools for creating parametric 2D and 3D designs with JavaScript code. It\u2026\njavascript\nsvg\nmodular\nstl\nobj\nJavaScript\n\u00b7\n3.3k\n\u00b7\nUpdated 20 hours ago\nStar\nHakanSeven12/OpenCADStudio\nA CAD application built with Rust \u2014 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering\nrust\ncad\ndwg\ndxf\ndxf-reader\nRust\n\u00b7\n3.2k\n\u00b7\nUpdated 6 minutes ago\nStar\nflyfish-dev/file-viewer\nPreview 275+ file formats in the browser: Office, PDF, OFD, CAD, 3D, archives. Pure frontend, no server conversion. Vue / React / Svelte \u2026\nreact\nvue\nweb-components\nxlsx\nself-hosted\nTypeScript\n\u00b7\n2.6k\n\u00b7\nUpdated 2 minutes ago\nStar\nfougue/mayo\n3D CAD viewer and converter based on Qt + OpenCascade\nconverter\nstl\ncad\nqt5\nply\nC++\n\u00b7\n2.3k\n\u00b7\nUpdated yesterday\nStar\nmicrosoft/maker.js\n\ud83d\udcd0\u2699 2D vector line drawing and shape modeling for CNC and laser cutters.\nsvg\npdf\ndrawing\nfonts\nline\nTypeScript\n\u00b7\n2k\n\u00b7\nUpdated 3 days ago\nStar\nqcad/qcad\nQCAD - The Open Source 2D CAD. QCAD is a cross-platform CAD solution for Windows, macOS and Linux. It supports the DXF format and optiona\u2026\nwindows\nmacos\nlinux\ncad\ndwg\nC++\n\u00b7\n1.9k\n\u00b7\nUpdated 10 days ago\nStar\nPrevious1234567\u2026100Next\nSponsor open source projects you depend on\nContributors are working behind the scenes to make open source better for everyone\u2014give them the help and recognition they deserve.\nExplore sponsorable projects\nHow can we improve search? Give feedback\nProTip!\u00a0Press the / key to activate the search input again and adjust your query."
+    },
+    {
+      "query": "MIDI parser",
+      "url": "https://github.com/search?q=MIDI%20parser&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-18T06:15:08.459Z",
+      "text": "Skip to content\nMIDI parser\nrepositories Search Results \u00b7 MIDI parser\nFilter by\nCode\nresults\nRepositories\n560\n\u00a0(560)\nresults\nIssues\nresults\nPull requests\nresults\nDiscussions\nresults\nUsers\n0\n\u00a0(0)\nresults\nMore\nLanguages\nPython\nC++\nC\nJavaScript\nRust\nJava\nC#\nTypeScript\nGo\nSwift\nMore languages...\nAdvanced\nOwner\nSize\nNumber of followers\nNumber of forks\nNumber of stars\nDate created\nDate pushed\nTopic\nLicense\nArchived\nPublic\nPrivate\nAdvanced search\n560 results\n\u00a0(181 ms)\n560 results\nSort by: Most stars\nSave\ngrimmdude/MidiPlayerJS\n\u266c MIDI parser & player engine for browser or Node. As a parser converts MIDI events into JSON. Works well with single or multitrack MIDI \u2026\naudio\nes6\nmidi\njavascript-library\nmidi-player\nJavaScript\n\u00b7\n397\n\u00b7\nUpdated on Jun 22\nStar\ncolxi/midi-parser-js\nJSON Human readable MIDI sequences. Read from ArrayBuffers, Base64 encoded strings, or FileInput Element in Browsers.\njavascript\nmidi\nmidi-js\nmidi-parser\nmidi-parser-js\nJavaScript\n\u00b7\n246\n\u00b7\nUpdated on Aug 12, 2023\nStar\nkovaxis/midly\nA feature-complete MIDI parser and writer focused on speed.\nRust\n\u00b7\n199\n\u00b7\nUpdated on Jul 4, 2024\nStar\nnfroidure/midifile\nA MIDI file parser/writer using ArrayBuffers\nmidi\nhacktoberfest\nJavaScript\n\u00b7\n197\n\u00b7\nUpdated on Apr 29, 2018\nStar\nCTR-tools/CTR-tools\nCrash Team Racing (PS1) tools - a C# framework and a set of tools by DCxDemo to parse files found in the original kart racing game by Nau\u2026\nconverter\nframework\ntools\nmodding\nmidi\nC#\n\u00b7\n191\n\u00b7\nUpdated 13 days ago\nStar\ncarter-thaxton/midi-file\nParse and write MIDI files\nJavaScript\n\u00b7\n158\n\u00b7\nUpdated on Aug 12\nStar\nnlaha/godot-midi\nMIDI file parsing and event playback in Godot 4.2+\nmusic\nmidi\ngame-development\ngodot\nrythm-game\nC++\n\u00b7\n147\n\u00b7\nUpdated 11 days ago\nStar\nchrisguttandin/midi-json-parser\nThis module is parsing midi files into a human-readable JSON object.\nmidi\nJavaScript\n\u00b7\n133\n\u00b7\nUpdated on Sep 1\nStar\nmeshula/LabMidi\nMidi IN and OUT. Standard midi file parser and player. Midi Softsynth implementation.\nmusic\nc-plus-plus\nplayer\nmusic-player\nmidi\nC++\n\u00b7\n92\n\u00b7\nUpdated on Jul 15\nStar\nmatsune/MidiParser\nRead/Write SMF(Standard Midi Files) in Swift for iOS/macOS\nSwift\n\u00b7\n90\n\u00b7\nUpdated on Mar 24\nStar\nPrevious1234567\u202656Next\nSponsor open source projects you depend on\nContributors are working behind the scenes to make open source better for everyone\u2014give them the help and recognition they deserve.\nExplore sponsorable projects\nHow can we improve search? Give feedback\nProTip!\u00a0Press the / key to activate the search input again and adjust your query."
+    },
+    {
+      "query": "DBF",
+      "url": "https://github.com/search?q=DBF&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-18T06:15:09.834Z",
+      "text": "Skip to content\nDBF\nrepositories Search Results \u00b7 DBF\nFilter by\nCode\nresults\nRepositories\n10.2k\n\u00a0(10.2k)\nresults\nIssues\nresults\nPull requests\nresults\nDiscussions\nresults\nUsers\nresults\nMore\nLanguages\nPython\nC#\nTSQL\nJavaScript\nHTML\nJava\nTypeScript\nPHP\nC++\nCSS\nMore languages...\nAdvanced\nOwner\nSize\nNumber of followers\nNumber of forks\nNumber of stars\nDate created\nDate pushed\nTopic\nLicense\nArchived\nPublic\nPrivate\nAdvanced search\n10.2k results\n\u00a0(182 ms)\n10.2k results\nSort by: Most stars\nSave\nagrosner/DBFlow\nA blazing fast, powerful, and very simple ORM android database library that writes database code for you.\nKotlin\n\u00b7\n4.8k\n\u00b7\nUpdated on Aug 24\nStar\ndlunion/DBFace\nDBFace is a real-time, single-stage detector for face detection, with faster speed and higher accuracy\nPython\n\u00b7\n1.4k\n\u00b7\nUpdated on Jul 6, 2021\nStar\nebroecker/canmatrix\nConverting Can (Controller Area Network) Database Formats .arxml .dbc .dbf .kcd ...\npython\njson\nconvert\nxlsx\ncan\nPython\n\u00b7\n1.1k\n\u00b7\nUpdated yesterday\nStar\nDO-SAY-GO/sirdb\n\ud83d\udc68 a simple, git diffable JSON database on yer filesystem. By the power of NodeJS\njson\ndatabase\nfilesystem\ncard\njson-files\nJavaScript\n\u00b7\n573\n\u00b7\nUpdated on Nov 17, 2025\nStar\n0xErwin1/dbflux\nA fast, keyboard-first database client built with Rust and GPUI.\nmysql\nrust\nredis\naws\nsql\nRust\n\u00b7\n478\n\u00b7\nUpdated 6 hours ago\nStar\nreingart/pyafipws\nFactura Electr\u00f3nica AFIP y otros servicios web (proyecto software libre) \u2014 Interfases, tools and apps for Argentina's gov't. webservices \u2026\npython\njava\nphp\nwebservice\njson\nPython\n\u00b7\n365\n\u00b7\nUpdated on Jul 20, 2025\nStar\nSheetJS/j\nPublic archive\n\u274c Multi-format spreadsheet CLI (now merged in http://github.com/sheetjs/js-xlsx )\njavascript\nmarkdown\ncli\ndata\ncsv\nJavaScript\n\u00b7\n353\n\u00b7\nUpdated on Dec 5, 2017\nStar\nwavded/js-shapefile-to-geojson\nConvert Shapfiles and DBF to GeoJSON using JavaScript\nJavaScript\n\u00b7\n300\n\u00b7\nUpdated on Apr 4, 2023\nStar\ninfused/dbf\nDBF is a small, fast Ruby library for reading dBase, xBase, Clipper, and FoxPro database files.\nruby\ndatabase\nfoxpro\nxbase\ndbf\nRuby\n\u00b7\n281\n\u00b7\nUpdated 2 days ago\nStar\nHearthSim/python-hearthstone\nHearthstone Python library (CardDefs, DBF, enums, log parser)\nhearthstone\nPython\n\u00b7\n277\n\u00b7\nUpdated 4 days ago\nStar\nPrevious1234567\u2026100Next\nSponsor open source projects you depend on\nContributors are working behind the scenes to make open source better for everyone\u2014give them the help and recognition they deserve.\nExplore sponsorable projects\nHow can we improve search? Give feedback\nProTip!\u00a0Press the / key to activate the search input again and adjust your query."
+    },
+    {
+      "query": "Qucs",
+      "url": "https://github.com/search?q=Qucs&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-18T06:15:11.362Z",
+      "text": "Skip to content\nQucs\nrepositories Search Results \u00b7 Qucs\nFilter by\nCode\nresults\nRepositories\n250\n\u00a0(250)\nresults\nIssues\nresults\nPull requests\nresults\nDiscussions\nresults\nUsers\nresults\nMore\nLanguages\nC++\nPython\nHTML\nShell\nMATLAB\nTeX\nJavaScript\nBitBake\nC\nDockerfile\nMore languages...\nAdvanced\nOwner\nSize\nNumber of followers\nNumber of forks\nNumber of stars\nDate created\nDate pushed\nTopic\nLicense\nArchived\nPublic\nPrivate\nAdvanced search\n250 results\n\u00a0(168 ms)\n250 results\nSort by: Most stars\nSave\nra3xdh/qucs_s\nQucs-S is a circuit simulation program with Qt-based GUI\nqt\nsimulation\nelectronics\nqt5\nmodelling\nC++\n\u00b7\n1.4k\n\u00b7\nUpdated 12 hours ago\nStar\nQucs/qucs\nQucs Project official mirror\nC++\n\u00b7\n1.3k\n\u00b7\nUpdated on Mar 25\nStar\nthomaslepoix/Qucs-RFlayout\nExport Qucs RF schematics to KiCad layouts & OpenEMS scripts\npcb\nkicad\npcb-layout\nopenhardware\nqucs\nC++\n\u00b7\n169\n\u00b7\nUpdated on Aug 25, 2025\nStar\nfeiyangqingyun/qucsdk\nQt\u7f16\u5199\u7684\u81ea\u5b9a\u4e49\u63a7\u4ef6\u63d2\u4ef6\u7684sdk\u96c6\u5408\uff0c\u5305\u62ec\u4e86\u5404\u4e2a\u64cd\u4f5c\u7cfb\u7edf\u7684\u52a8\u6001\u5e93\u6587\u4ef6\u4ee5\u53ca\u63a7\u4ef6\u7684\u5934\u6587\u4ef6\u548csdk\u4f7f\u7528demo\u3002\u5fc3\u4e2d\u6709\u5750\u6807\uff0c\u4e07\u7269\u7686painter\uff0c\u6b22\u8fce\u5404\u4f4d\u54a8\u8be2\u3001\u8d2d\u4e70\u3001\u5b9a\u5236\u63a7\u4ef6\uff0cQQ\uff1a517216493 \u5fae\u4fe1\uff1afeiyangqingyun \u63a8\u8350\u52a0\u5fae\u4fe1\u3002\u516c\u4f17\u53f7\uff1aQt\u5b9e\u6218/Qt\u5165\u95e8\u548c\u8fdb\u2026\nC++\n\u00b7\n96\n\u00b7\nUpdated on Oct 30, 2025\nStar\nerichVK5/translate2geda\nA utility for converting kicad (.mod, .lib), Eagle (.lbr), gerber (.gbr etc..), BXL (.bxl), IBIS (.ibs), symdef, LT-Spice (.asc), QUCS (.\u2026\nJava\n\u00b7\n51\n\u00b7\nUpdated on Apr 10, 2023\nStar\nlrs0304/quc\nquc\u662f\u4e00\u5957\u548cqwt\u7c7b\u4f3c\u7684\u81ea\u5b9a\u4e49\u63a7\u4ef6\u63d2\u4ef6\nC++\n\u00b7\n43\n\u00b7\nUpdated on Aug 2, 2017\nStar\nra3xdh/qucs-rus-complib\nRussian components library for Qucs\n37\n\u00b7\nUpdated on Dec 29, 2024\nStar\nQucs/qucsator\nCircuit simulator of the Qucs project\nC++\n\u00b7\n36\n\u00b7\nUpdated on Dec 21, 2025\nStar\nra3xdh/qucsator_rf\nQucsator-RF is RF circuit simulation kernel for Qucs-S\ncpp\nelectronics\ncad\nC++\n\u00b7\n34\n\u00b7\nUpdated on Aug 27\nStar\nzonca/python-qucs\nPublic archive\nQUCS, (http://qucs.sf.net), is a powerful open-source circuit simulator, python-qucs is a Python package that allows to automate the proc\u2026\nPython\n\u00b7\n24\n\u00b7\nUpdated on Oct 26, 2021\nStar\nPrevious1234567\u202625Next\nSponsor open source projects you depend on\nContributors are working behind the scenes to make open source better for everyone\u2014give them the help and recognition they deserve.\nExplore sponsorable projects\nHow can we improve search? Give feedback\nProTip!\u00a0Press the / key to activate the search input again and adjust your query."
+    },
+    {
+      "query": "MIDI Objects",
+      "url": "https://github.com/search?q=MIDI%20Objects&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-18T06:17:24.709Z",
+      "text": "Skip to content\nMIDI Objects\nrepositories Search Results \u00b7 MIDI Objects\nFilter by\nCode\nresults\nRepositories\n91\n\u00a0(91)\nresults\nIssues\nresults\nPull requests\nresults\nDiscussions\nresults\nUsers\nresults\nMore\nLanguages\nPython\nC#\nC++\nJava\nJavaScript\nC\nMax\nObjective-C\nRuby\nSwift\nMore languages...\nAdvanced\nOwner\nSize\nNumber of followers\nNumber of forks\nNumber of stars\nDate created\nDate pushed\nTopic\nLicense\nArchived\nPublic\nPrivate\nAdvanced search\n91 results\n\u00a0(147 ms)\n91 results\nSort by: Most stars\nSave\nmido/mido\nMIDI Objects for Python\npython\nmidi\nmidifile\nPython\n\u00b7\n1.7k\n\u00b7\nUpdated on Sep 16\nStar\njameshball/osci-render\n\u3030\ud83d\udcfa\ud83d\udd0a Synthesiser audio plugin for making music by drawing objects on an oscilloscope using audio.\naudio\nmusic\nblender\nmidi\nrendering\nC++\n\u00b7\n734\n\u00b7\nUpdated 7 hours ago\nStar\nossia/libossia\nA modern C++, cross-environment distributed object model for creative coding and interaction scoring\nosc\ncreative-coding\nmidi\nc-plus-plus-14\nfloss\nC++\n\u00b7\n231\n\u00b7\nUpdated 7 hours ago\nStar\nchrisguttandin/midi-json-parser\nThis module is parsing midi files into a human-readable JSON object.\nmidi\nJavaScript\n\u00b7\n133\n\u00b7\nUpdated on Sep 1\nStar\nlubyk/lubyk\nOpen source patcher for multimedia projects: glue all this midi, DMX, neural networks, opengl stuff into a fast C++ core with Lua scripta\u2026\nC\n\u00b7\n55\n\u00b7\nUpdated on Apr 12, 2017\nStar\narirusso/midi-message\nRuby MIDI message objects\nruby\nmusic\nparsing\nmidi\nmidi-messages\nRuby\n\u00b7\n21\n\u00b7\nUpdated on Feb 22, 2022\nStar\nSpectrumPro/spectrum\nObject-oriented lighting control framework.\nmidi\ngodot-engine\nartnet\ndmx\ndmx512\nGDScript\n\u00b7\n19\n\u00b7\nUpdated 12 hours ago\nStar\nEldinZenderink/MidiController\nBlender plugin to control object properties through midi.\nblender-scripts\nblender\nmidi\nmidi-controller\nblender-addon\nPython\n\u00b7\n18\n\u00b7\nUpdated on Apr 10\nStar\nandrejhronco/midi-ports\nReturns an object of attached midi ports with inputID, outputID, name, and manufacturer for more semantic MIDI port access.\ntypescript\nmidi\nwebmidi\nweb-midi\nmidi-controller\nTypeScript\n\u00b7\n17\n\u00b7\nUpdated on Sep 14\nStar\nalve0024/UsingAVAudioEngineforPlaybackMixingandRecordingAVAEMixerSample\nDemonstrates Playback, Recording and Mixing using AVAudioEngine. Shows how to play AVAudioFile and AVAudioPCMBuffer objects from an AVAud\u2026\nObjective-C\n\u00b7\n14\n\u00b7\nUpdated on Feb 14, 2017\nStar\nPrevious1234567\u202610Next\nSponsor open source projects you depend on\nContributors are working behind the scenes to make open source better for everyone\u2014give them the help and recognition they deserve.\nExplore sponsorable projects\nHow can we improve search? Give feedback\nProTip!\u00a0Press the / key to activate the search input again and adjust your query."
+    },
+    {
+      "query": "spreadsheet parser",
+      "url": "https://github.com/search?q=spreadsheet%20parser&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-18T06:17:26.480Z",
+      "text": "Skip to content\nspreadsheet parser\nrepositories Search Results \u00b7 spreadsheet parser\nFilter by\nCode\nresults\nRepositories\n980\n\u00a0(980)\nresults\nIssues\nresults\nPull requests\nresults\nDiscussions\nresults\nUsers\nresults\nMore\nLanguages\nPython\nJavaScript\nTypeScript\nJava\nC#\nPHP\nRuby\nHTML\nRust\nC++\nMore languages...\nAdvanced\nOwner\nSize\nNumber of followers\nNumber of forks\nNumber of stars\nDate created\nDate pushed\nTopic\nLicense\nArchived\nPublic\nPrivate\nAdvanced search\n980 results\n\u00a0(184 ms)\n980 results\nSort by: Most stars\nSave\ntafia/calamine\nA pure Rust Excel/OpenDocument SpreadSheets file reader: rust on metal sheets\nrust\nparser\nexcel\nserde\nvba\nRust\n\u00b7\n2.5k\n\u00b7\nUpdated 6 hours ago\nStar\nproductdevbook/hucre\nZero-dependency spreadsheet engine. Read & write XLSX, CSV, ODS. Pure TypeScript, works everywhere.\nparser\nstreaming\ntypescript\ncsv\nexcel\nTypeScript\n\u00b7\n2.2k\n\u00b7\nUpdated 3 days ago\nStar\nfossasia/open-event-scraper\nPublic archive\nGoogle spreadsheet parsing for Open Event JSON\nPython\n\u00b7\n1.5k\n\u00b7\nUpdated on Apr 29, 2016\nStar\nCoreOffice/CoreXLSX\nExcel spreadsheet (XLSX) format parser written in pure Swift\nmacos\nswift\nios\nparser\ntvos\nSwift\n\u00b7\n906\n\u00b7\nUpdated on Mar 25, 2024\nStar\nhandsontable/formula-parser\nPublic archive\nJavascript Library parsing Excel Formulas and more\nformula\nparser\nexcel\nspreadsheet\nformula-parser\nJavaScript\n\u00b7\n648\n\u00b7\nUpdated on Jul 15, 2021\nStar\nfaisalman/simple-excel-php\nSimplexcel.php - Easily read / parse / convert / write between Microsoft Excel XML / CSV / TSV / HTML / JSON / etc spreadsheet tabular fi\u2026\ncsv-converter\nhtml-converter\njson-converter\nexcel-reader\nexcel-converter\nPHP\n\u00b7\n556\n\u00b7\nUpdated on Oct 27, 2021\nStar\nLesterLyu/fast-formula-parser\nParse and evaluate MS Excel formula in javascript.\njavascript\nformula\nparser\ninterpreter\njs\nJavaScript\n\u00b7\n522\n\u00b7\nUpdated on Sep 10, 2025\nStar\naVadim483/fast-excel-writer\nLightweight and very fast XLSX Excel Spreadsheet Writer in PHP. Supports full XLSX-file functionality - cell formatting, formulas, styles\u2026\nphp\nexport\nparser\nphp-library\nexcel\nPHP\n\u00b7\n315\n\u00b7\nUpdated 9 days ago\nStar\nseamusabshere/data_miner\nDownload, unpack from a ZIP/TAR/GZ/BZ2 archive, parse, correct, convert units and import Google Spreadsheets, XLS, ODS, XML, CSV, HTML, e\u2026\nRuby\n\u00b7\n305\n\u00b7\nUpdated on Feb 27, 2014\nStar\nmpryor/nothing-less\nA TUI pager with advanced support for tabular data, inferring/swapping delimiters, and real-time event parsing.\npython\nkubernetes\ncli\ntsv\njson\nPython\n\u00b7\n282\n\u00b7\nUpdated on May 8\nStar\nPrevious1234567\u202698Next\nSponsor open source projects you depend on\nContributors are working behind the scenes to make open source better for everyone\u2014give them the help and recognition they deserve.\nExplore sponsorable projects\nHow can we improve search? Give feedback\nProTip!\u00a0Press the / key to activate the search input again and adjust your query."
+    }
+  ]
+}

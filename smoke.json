@@ -1,0 +1,14 @@
+[
+  {
+    "data": "4d546864000000060000000101e04d54726b0000001e00ff510307a12000903c508170b0407f8170803c008360b0400000ff2f00",
+    "exit": 0,
+    "assertion": "r['notes'][0]['release_tick']==960 and r['notes'][0]['key_off_tick']==480 and r['notes'][0]['held_microseconds']=='1000000'",
+    "args": []
+  },
+  {
+    "data": "4d546864000000060000000101e04d54726b0000000800803c0000ff2f00",
+    "exit": 1,
+    "assertion": "r['findings'][0]['reason']=='unmatched_note_off'",
+    "args": []
+  }
+]
